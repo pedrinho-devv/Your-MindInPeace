@@ -28,7 +28,7 @@ export function Hero() {
 
         {/* Container das divs animadas */}
         <motion.div
-          className="absolute top-[-20px] left-[-20px] bg-white/30 rounded-lg backdrop-blur-md shadow-md text-white px-9 py-5 text-black"
+          className="absolute top-[20px] left-[-20px] bg-white/30 rounded-lg backdrop-blur-md shadow-md text-white px-9 py-5 text-black"
           animate={{ y: [0, -10, 0] }}
           transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
         >
