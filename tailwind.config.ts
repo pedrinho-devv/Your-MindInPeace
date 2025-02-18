@@ -114,7 +114,8 @@ export default {
   		animation: {
   			fadeIn: 'fadeIn 0.5s ease-out',
   			bounce: 'bounce 1s ease infinite',
-  			pulse: 'pulse var(--duration) ease-out infinite'
+  			pulse: 'pulse var(--duration) ease-out infinite',
+  			rippling: 'rippling var(--duration) ease-out'
   		},
   		keyframes: {
   			pulse: {
@@ -123,6 +124,15 @@ export default {
   				},
   				'50%': {
   					boxShadow: '0 0 0 8px var(--pulse-color)'
+  				}
+  			},
+  			rippling: {
+  				'0%': {
+  					opacity: '1'
+  				},
+  				'100%': {
+  					transform: 'scale(2)',
+  					opacity: '0'
   				}
   			}
   		}
