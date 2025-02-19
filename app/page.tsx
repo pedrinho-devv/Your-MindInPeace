@@ -1,4 +1,5 @@
 
+import { About } from "./_components/About";
 import { Hero } from "./_components/Hero";
 import { Navbar } from "./_components/Navbar";
 import { Phrases } from "./_components/Phrase";
@@ -10,6 +11,7 @@ export default function Home(){
       <Navbar/>
       <Hero/>
       <Phrases/>
+      <About/>
     </main>
   )
 }
