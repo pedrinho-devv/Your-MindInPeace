@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Img from "../Public/imghero.jpg";
+import Img from "../assets/imghero.jpg";
 
 export function Hero() {
   return (
