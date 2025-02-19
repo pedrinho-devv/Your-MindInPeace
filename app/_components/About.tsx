@@ -3,7 +3,7 @@ import ImgAbout from "../public/about.jpg";
 
 export function About() {
   return (
-    <section className="w-full h-auto flex flex-col lg:flex-row justify-center items-center gap-6 px-7">
+    <section className="w-full h-auto flex flex-col lg:flex-row justify-center items-center gap-6 px-7 mb-96">
       <div className="flex-shrink-0 w-full lg:w-auto">
         <Image 
           src={ImgAbout} 
