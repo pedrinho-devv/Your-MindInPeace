@@ -8,12 +8,7 @@ body {
   font-family: "Outfit", serif;
 }
 
-@layer base {
-  * {
-    @apply border-gray-200 outline-gray-500/50;
-  }
-
-  body {
-    @apply bg-gray-50 text-gray-900;
-  }
+section {
+  border: none;
+  box-shadow: none;
 }
